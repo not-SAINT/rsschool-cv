@@ -8,7 +8,7 @@ Skype: not-saint
 
 ## Summary
 
-I wish ...
+I want to try something new, but legal. Gain new knowledge and experience the pleasure of applying them again.
 
 ## Skills
 
@@ -16,7 +16,11 @@ Oracle PL/SQL, .Net, C#, ASP<i></i>.NET, html, JavaScript, Git
 
 ## Code examples
 
-coming soon
+```javascript
+function removeChar(str) {
+  return str.substring(0, str.length - 1).substring(1);
+}
+```
 
 ## Experience
 

@@ -4,7 +4,7 @@
 
 Phone: +37529-75-666-43  
 E-mail: jedilexx@gmail.com  
-Skype:
+Skype: not-saint
 
 ## Summary
 

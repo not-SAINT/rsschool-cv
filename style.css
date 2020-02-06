@@ -6,16 +6,98 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  padding-top: 13px;
+}
+
+.navigation-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-list li {
+  width: 120px;
+  height: 70px;
+}
+
+.navigation-list li > a {
+  display: block;
+  padding: 0.3em;
+  text-decoration: none;
+  color: black;
+  border: 2px solid #d4d4d4;
+  border-radius: 5px;
+  background-color: #89facd;
+  padding: 0.3em;
+}
+
+.navigation-list li a:hover {
+  position: relative;
+  top: 1px;
+  font-size: 1.3em;
+  font-weight: bold;
+  background-color: #cfd3fa;
+  border: 2px solid #9c9c9c;
+}
+
 section {
-  background-color: red;
+  background-color: #ceffec;
   text-align: center;
+}
+
+p {
+  padding: 13px;
+}
+
+.code-block {
+  margin-bottom: 13px;
+  display: inline-block;
+  background-color: #fcf3e5c9;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.avatar {
+  display: block;
+  margin: 10px auto;
+  width: 150px;
+  border: 2px solid #d4d4d4;
+  border-radius: 15px;
+}
+
+.avatar:hover {
+  border: 2px solid #9c9c9c;
+}
+
+.contact-list {
+  padding-left: 45%;
+  text-align: left;
+  list-style-type: none;
+}
+
+.contact-ico {
+  height: 30px;
+  width: 30px;
+  vertical-align: middle;
+}
+
+.contact-list li a {
+  color: black;
+  text-decoration: none;
+}
+
+.contact-list li a:hover {
+  text-shadow: 0px 4px 5px grey;
 }
 
 .footer-div {
   display: flex;
   justify-content: flex-end;
-  height: 100px;
-  background-color: rgb(243, 255, 190);
+  height: 50px;
 }
 
 .footer-link {
@@ -27,10 +109,4 @@ section {
 .footer-link:hover {
   color: #ec8383;
   text-shadow: 0px 4px 17px grey;
-}
-
-.test-div {
-  height: 50px;
-  width: 100%;
-  background-color: hotpink;
 }

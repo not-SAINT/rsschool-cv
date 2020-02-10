@@ -49,6 +49,11 @@ h2 {
   border-radius: 5px;
 }
 
+.navigation-list li a:link,
+.navigation-list li a:visited {
+  color: var(--paragraph);
+}
+
 .navigation-list li a:hover {
   position: relative;
   top: 1px;
